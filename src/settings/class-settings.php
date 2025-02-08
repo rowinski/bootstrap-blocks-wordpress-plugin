@@ -232,6 +232,8 @@ if ( ! class_exists( '\WP_Bootstrap_Blocks\Settings', false ) ) :
 						'12' => '12',
 						'18' => '18',
 						'24' => '24',
+						'36' => '36',
+						'45' => '45',
 					),
 					'constant_name' => self::GRID_COLUMNS_CONSTANT_NAME,
 					'disabled' => false,

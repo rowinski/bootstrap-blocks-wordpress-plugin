@@ -62,13 +62,13 @@ let templates = [
 			[
 				'wp-bootstrap-blocks/column',
 				{
-					sizeMd: (getGridColumns() / 2),
+					sizeMd: Math.floor(getGridColumns() / 2),
 				},
 			],
 			[
 				'wp-bootstrap-blocks/column',
 				{
-					sizeMd: (getGridColumns() / 2),
+					sizeMd: Math.floor(getGridColumns() / 2),
 				},
 			],
 		],
