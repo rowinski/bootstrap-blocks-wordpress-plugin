@@ -76,8 +76,17 @@ cp -R $SOURCEPATH/languages $RELEASEPATH/trunk/
 cp -R $SOURCEPATH/src $RELEASEPATH/trunk/
 mkdir -p $RELEASEPATH/trunk/build/
 cp $SOURCEPATH/build/index.css $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/index-12.css $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/index-18.css $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/index-24.css $RELEASEPATH/trunk/build/
 cp $SOURCEPATH/build/style-index.css $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/style-index-12.css $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/style-index-18.css $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/style-index-24.css $RELEASEPATH/trunk/build/
 cp $SOURCEPATH/build/index.js $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/index-12.js $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/index-18.js $RELEASEPATH/trunk/build/
+cp $SOURCEPATH/build/index-24.js $RELEASEPATH/trunk/build/
 cp $SOURCEPATH/build/index.asset.php $RELEASEPATH/trunk/build/
 cp $SOURCEPATH/build/settings.css $RELEASEPATH/trunk/build/
 cp $SOURCEPATH/build/settings.asset.php $RELEASEPATH/trunk/build/
